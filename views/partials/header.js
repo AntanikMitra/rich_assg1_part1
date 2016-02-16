@@ -11,8 +11,8 @@
 
 <nav>
 <div class="nav-wrapper" >
-<a href="/" class="brand-logo" > Antanik < /a>
-< a href= "#" data- activates="mobile-demo" class="button-collapse" > <i class="material-icons" > menu < /i></a >
+<a href="/" class="brand-logo"> Antanik </a>
+<a href= "#" data- activates="mobile-demo" class="button-collapse"> <i class="material-icons" > menu < /i></a >
 <ul class="right hide-on-med-and-down" >
 
 <li><a href="/" title= "Home" > Home < /a></li >
@@ -29,8 +29,8 @@
 <li><a href="/services" title= "Services" > Services < /a></li >
 <li><a href="/contact" title= "Contact" > Contact < /a></li >
 </ul>
-< /div>
-< /nav>
+</div>
+</nav>
 
 
 
