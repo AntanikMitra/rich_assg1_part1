@@ -11,7 +11,8 @@
 < /head>
 < body >
 
-< nav class="navbar navbar-inverse" >
+
+<nav class="navbar navbar-default" >
 <div class="container-fluid" >
 <div class="navbar-header" >
 <button type="button" class="navbar-toggle" data- toggle="collapse" data- target="#myNavbar" >
@@ -19,11 +20,11 @@
 < span class="icon-bar" > </span>
 < span class="icon-bar" > </span>                        
 < /button>
-< a class="navbar-brand" href= "/" > Antanik Mitra< /a>
+< a class="navbar-brand" href= "/" > WebSiteName < /a>
 < /div>
 < div class="collapse navbar-collapse" id= "myNavbar" >
 <ul class="nav navbar-nav" >
-<li class="active" > <a href="/" title= "Home" > Home < /a></li >
+<li><a href="/" title= "Home" > Home < /a></li >
 <li><a href="/about" title= "About" > About < /a></li >
 <li><a href="/projects" title= "Projects" > Projects < /a></li >
 <li><a href="/services" title= "Services" > Services < /a></li >
@@ -32,3 +33,4 @@
 < /div>
 < /div>
 < /nav>
+
