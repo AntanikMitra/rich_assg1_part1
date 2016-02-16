@@ -2,9 +2,6 @@
 <html>
 <head>
 <title><%= title %></title>
-< link rel= "stylesheet" href= "/stylesheets/bootstrap.min.css" />
-<link rel="stylesheet" href= "/stylesheets/bootstrap-theme.min.css" />
-<link rel="stylesheet" href= '/stylesheets/style.css' />
 <link rel="stylesheet" href= "https://fonts.googleapis.com/icon?family=Material+Icons" >
 <link rel="stylesheet" href= "https://code.getmdl.io/1.1.1/material.indigo-pink.min.css" >
 
@@ -13,8 +10,6 @@
 < script src= "/javascripts/bootstrap.min.js" > </script>
 < /head>
 < body >
-
-
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="custom-header mdl-layout__header mdl-layout__header--waterfall">
@@ -32,10 +27,9 @@
     <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Sidebar Menu</span>
         <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="/" title= "Home" > Father < /a>
+            <a class="mdl-navigation__link" href="/mother" title= "mother" > Mother < /a>
+            <a class="mdl-navigation__link" href="/nik" title= "nik" > Antanik < /a>
         </nav>
     </div>
     <main class="mdl-layout__content">
@@ -52,10 +46,3 @@
 
 
 
-<nav class="navbar navbar-default" >
-<ul class="nav navbar-nav" >
-<li><a href="/" title= "Home" > Father < /a></li >
-<li><a href="/mother" title= "mother" > Mother < /a></li >
-<li><a href="/nik" title= "nik" > Antanik < /a></li >
-</ul>
-< /nav>
