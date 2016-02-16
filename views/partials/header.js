@@ -6,8 +6,7 @@
 <link rel="stylesheet" href= "https://code.getmdl.io/1.1.1/material.indigo-pink.min.css" >
 
 <script defer src= "https://code.getmdl.io/1.1.1/material.min.js" > </script>
-< script src= "/javascripts/jquery-2.2.0.min.js" > </script>
-< script src= "/javascripts/bootstrap.min.js" > </script>
+
 < /head>
 < body >
 
