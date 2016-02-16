@@ -12,8 +12,10 @@
 <body>
   <nav class="navbar navbar-default">
     <ul class="nav navbar-nav">
-        <li><a href="/" title="Home">Father</a></li>
-        <li><a href="/mother" title="mother">Mother</a></li>
-        <li><a href="/nik" title="nik">Antanik</a></li>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about" title="About">About</a></li>
+        <li><a href="/projects" title="Projects">Projects</a></li>
+         <li><a href="/services" title="Services">Services</a></li>
+          <li><a href="/contact" title="Contact">Contact</a></li>
    </ul>
   </nav>

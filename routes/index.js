@@ -1,17 +1,27 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home/father page. */
+/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: "Anirban Mitra" });
+  res.render('index', { title: "Antanik Mitra" });
 });
-/* GET mother page. */
-router.get('/mother', function(req, res, next) {
-  res.render('mother', { title: "Mousumi Mitra" });
+/* GET about page. */
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: "About" });
 });
-/* GET my page. */
-router.get('/nik', function(req, res, next) {
-  res.render('nik', {title: "Antanik Mitra"});
+/* GET project */
+router.get('/projects', function(req, res, next) {
+  res.render('projects', {title: "Projects"});
+});
+
+/* GET services. */
+router.get('/services', function(req, res, next) {
+  res.render('services', {title: "Services"});
+});
+
+/* GET contact page. */
+router.get('/contact', function(req, res, next) {
+  res.render('contact', {title: "Contact"});
 });
 
 module.exports = router;
